@@ -1,4 +1,10 @@
 {
+  "Dashboard": {
+    "Followers": 101,
+    "Following": 11,
+    "Likes": 1001,
+    "posts": 1
+  },
   "Employees": [
     {
       "id": 1,

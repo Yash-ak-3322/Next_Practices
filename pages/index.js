@@ -64,6 +64,14 @@ export default function Home() {
           {" "}
           Pre-rendering SSR Concepts{" "}
         </Link>
+        |{" "}
+        <Link
+          href="/components/clientSideDF"
+          className="mx-2 transition-transform transform text-blue-900 hover:text-orange-600"
+        >
+          {" "}
+          Client Side DF{" "}
+        </Link>
       </div>
     </>
   );
