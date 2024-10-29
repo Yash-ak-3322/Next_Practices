@@ -47,6 +47,14 @@ export default function Home() {
         >
           {" "}
           Docs{" "}
+        </Link>{" "}
+        |{" "}
+        <Link
+          href="/preRenderingSSG"
+          className="mx-2 transition-transform transform text-blue-900 hover:text-orange-600"
+        >
+          {" "}
+          Pre-rendering SSG Concepts{" "}
         </Link>
       </div>
     </>

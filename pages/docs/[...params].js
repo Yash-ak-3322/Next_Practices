@@ -4,7 +4,7 @@ const { default: Navbar } = require("../components/navbar");
 function DocsParam() {
   const router = useRouter();
 
-  const { params } = router.query;
+  const { params = [] } = router.query;
 
   console.log(params); // Array of Params
 
