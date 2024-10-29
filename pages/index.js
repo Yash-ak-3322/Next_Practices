@@ -56,6 +56,14 @@ export default function Home() {
           {" "}
           Pre-rendering SSG Concepts{" "}
         </Link>
+        |{" "}
+        <Link
+          href="/preRenderingSSR"
+          className="mx-2 transition-transform transform text-blue-900 hover:text-orange-600"
+        >
+          {" "}
+          Pre-rendering SSR Concepts{" "}
+        </Link>
       </div>
     </>
   );
