@@ -73,6 +73,15 @@ export default function Home() {
           Client Side DF{" "}
         </Link>
       </div>
+      <div className="text-red-600 flex border-spacing-3 p-3 mx-2 justify-center font-semibold">
+        <Link
+          href="/comments"
+          className="mx-2 transition-transform transform text-pink-800 hover:text-green-600"
+        >
+          {" "}
+          Comments API Routes{" "}
+        </Link>
+      </div>
     </>
   );
 }
